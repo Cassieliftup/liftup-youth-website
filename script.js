@@ -31,6 +31,6 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
     var body = encodeURIComponent(bodyLines.join('\n'));
 
-    window.location.href = 'mailto:hello@liftupyouth.org?subject=' + subject + '&body=' + body;
+    window.location.href = 'mailto:liftupyouth@gmail.com?subject=' + subject + '&body=' + body;
   });
 });
